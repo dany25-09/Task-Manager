@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/responsive.css" media="(min-width: 320px) and (max-width: 580px)">
+</head>
+<body class="clear__theme">
+  <section class="section">
+    <div id="theme__toggle">
+      <button id="theme__toggle__btn">Theme</button>
+    </div>
+    <div id="task__manager">
+      <h1>Task Manager</h1>
+      <form id="task__form">
+        <input type="text" id="task__input" placeholder="Enter a new task" required>
+        <button class="task__button" type="submit">Add Task</button>
+      </form>
+      <ul id="task__list">
+        <!-- <li>
+          Task Content
+          <span class="delete__btn">❌</span>
+          <span class="edit__btn">✏️</span>
+        </li> -->
+      </ul>
+    </div>
+  </section>
+  <script src="./app.js"></script>
+</body>
+
+</html>

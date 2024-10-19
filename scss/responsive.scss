@@ -1,0 +1,41 @@
+@import 'variables';
+
+* { /* Se refiere a todos los elementos del html*/
+    box-sizing: border-box; /*incluir padding y border en el cálculo del tamaño total del elemento.*/
+    padding: 0;
+    margin: 0;
+}
+
+html { /*se refiere al elemento raíz <html>*/
+    font-size: 62.5%;  /*1rem equivalente a 10 píxeles (px)*/
+}
+
+
+
+ul {
+    list-style-type: none; /* Quita el punto de los elementos de la lista */
+    padding: 0; /* Elimina el padding */
+    margin: 0; /* Elimina el margen */
+}
+
+#task__manager{
+    #task__form{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+
+        #task__input{
+            width: 100%;
+        }
+    
+        .task__button{
+            margin-left: 0px;
+        }
+    }
+}
+
+#task__list{
+    height: 250px;
+}
+
